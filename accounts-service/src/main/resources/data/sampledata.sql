@@ -1,0 +1,4 @@
+INSERT INTO account (id,address,authtoken,balance,creationdate,creditcard,email,fullname,lastlogin,logincount,logoutcount,openbalance,passwd,userid) VALUES (1001,'','7ee720db-0598-440c-8fc3-c5b442c90c23',75674.00,'2016-07-18 21:29:00','','test1@test.com','test 1','2016-07-29 21:33:46',736,700,100000.00,'test','test-1');
+INSERT INTO account (id,address,authtoken,balance,creationdate,creditcard,email,fullname,lastlogin,logincount,logoutcount,openbalance,passwd,userid) VALUES (1002,'',null,35730.00,'2016-07-18 21:29:00','','test2@email.com','test 2','2016-07-29 19:56:46',1,1,100000.00,'test','test-2');
+INSERT INTO account (id,address,authtoken,balance,creationdate,creditcard,email,fullname,lastlogin,logincount,logoutcount,openbalance,passwd,userid) VALUES (1003,'','51253e70-e76c-4a10-aba7-7abd50d03864',35409.00,'2016-07-29 20:02:00','','test3@test.com','test 3','2016-07-29 20:02:23',1,0,115000.00,'test','test-3');
+commit;
